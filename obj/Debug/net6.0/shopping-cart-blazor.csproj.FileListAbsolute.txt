@@ -1,0 +1,54 @@
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\bin\Debug\net6.0\appsettings.json
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\bin\Debug\net6.0\shopping-cart-blazor.staticwebassets.runtime.json
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\bin\Debug\net6.0\shopping-cart-blazor.exe
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\bin\Debug\net6.0\shopping-cart-blazor.deps.json
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\bin\Debug\net6.0\shopping-cart-blazor.runtimeconfig.json
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\bin\Debug\net6.0\shopping-cart-blazor.dll
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\bin\Debug\net6.0\shopping-cart-blazor.pdb
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.csproj.AssemblyReference.cache
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.AssemblyInfoInputs.cache
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.AssemblyInfo.cs
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.csproj.CoreCompileInputs.cache
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.RazorAssemblyInfo.cache
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.RazorAssemblyInfo.cs
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\scopedcss\bundle\shopping-cart-blazor.styles.css
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\scopedcss\projectbundle\shopping-cart-blazor.bundle.scp.css
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.dll
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\refint\shopping-cart-blazor.dll
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.pdb
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\shopping-cart-blazor.genruntimeconfig.cache
+C:\Users\bsi80134\Training dotnet\Blazor\shopping-cart-blazor\obj\Debug\net6.0\ref\shopping-cart-blazor.dll
+C:\Users\bsi80133\dotnetProject\razor_product-master\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\bsi80133\dotnetProject\razor_product-master\bin\Debug\net6.0\appsettings.json
+C:\Users\bsi80133\dotnetProject\razor_product-master\bin\Debug\net6.0\shopping-cart-blazor.staticwebassets.runtime.json
+C:\Users\bsi80133\dotnetProject\razor_product-master\bin\Debug\net6.0\shopping-cart-blazor.exe
+C:\Users\bsi80133\dotnetProject\razor_product-master\bin\Debug\net6.0\shopping-cart-blazor.deps.json
+C:\Users\bsi80133\dotnetProject\razor_product-master\bin\Debug\net6.0\shopping-cart-blazor.runtimeconfig.json
+C:\Users\bsi80133\dotnetProject\razor_product-master\bin\Debug\net6.0\shopping-cart-blazor.dll
+C:\Users\bsi80133\dotnetProject\razor_product-master\bin\Debug\net6.0\shopping-cart-blazor.pdb
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.csproj.AssemblyReference.cache
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.AssemblyInfoInputs.cache
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.AssemblyInfo.cs
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.csproj.CoreCompileInputs.cache
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.RazorAssemblyInfo.cache
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.RazorAssemblyInfo.cs
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\scopedcss\bundle\shopping-cart-blazor.styles.css
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\scopedcss\projectbundle\shopping-cart-blazor.bundle.scp.css
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.dll
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\refint\shopping-cart-blazor.dll
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.pdb
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\shopping-cart-blazor.genruntimeconfig.cache
+C:\Users\bsi80133\dotnetProject\razor_product-master\obj\Debug\net6.0\ref\shopping-cart-blazor.dll

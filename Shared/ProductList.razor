@@ -1,0 +1,135 @@
+﻿@inject Services.CartService CartService
+@inject Services.ProductProviderService ProductProviderService
+@inject NavigationManager UriHelper
+
+@* @foreach (var product in Products)
+{
+    <div class="card w-25">
+        <div class="card-body">
+            <h5 class="card-title">@product.Id</h5>
+            <p class="card-text">@product.Title</p>
+            <blockquote class="card-text">$@product.Body</blockquote>
+            @if (DisplayBuyButton)
+            {
+                <button class="btn btn-primary" type="button"
+                        @onclick="() => Navigate(product.Id)"
+                        >Detail</button>
+            }
+        </div>
+    </div>
+} *@
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vertical-bottom {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+
+
+</style>
+@for (int i = 0; i < Products.Count()-2; i = i+3)
+{
+    <div class="row">
+        <div class="column">
+            <div class="card" style="height: 20rem; background-color: lightgrey; font-family: Slab-Serif;" >
+                <div class="card-body">
+                    <h5 class="card-title">@Products[i].Id</h5>
+                    <p class="card-text" style = "height: 3rem"><b>@Products[i].Title</b></p>
+                    <blockquote class="card-text">$@Products[i].Body</blockquote>
+                    @if (DisplayBuyButton)
+                    {
+                        int indext = Products[i].Id;
+                        <div class="vertical-bottom">
+                        <button class="btn btn-primary" type="button" style="background-color: #0c2464; border-color: #0c2464;"
+                                @onclick="() => Navigate(indext)"
+                                >Detail</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card" style="height: 20rem;font-family: Slab-Serif;">
+                <div class="card-body">
+                    <h5 class="card-title">@Products[i+1].Id</h5>
+                    <p class="card-text" style = "height: 3rem"><b>@Products[i+1].Title</b></p>
+                    <blockquote class="card-text">$@Products[i+1].Body</blockquote>
+                    @if (DisplayBuyButton)
+                    {
+                        int indext = Products[i+1].Id;
+                        <div class="vertical-bottom">
+                        <button class="btn btn-primary" type="button" style="background-color: #0c2464; border-color: #0c2464;"
+                                @onclick="() => Navigate(indext)"
+                                >Detail</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card" style="height: 20rem; background-color: lightgrey; font-family: Slab-Serif;">
+                <div class="card-body">
+                    <h5 class="card-title">@Products[i+2].Id</h5>
+                    <p class="card-text" style = "height: 3rem"><b>@Products[i+2].Title</b></p>
+                    <blockquote class="card-text">$@Products[i+2].Body</blockquote>
+                    @if (DisplayBuyButton)
+                    {
+                        int indext = Products[i+2].Id;
+                        <div class="vertical-bottom">
+                        <button class="btn btn-primary" type="button" style="background-color: #0c2464; border-color: #0c2464;"
+                                @onclick="() => Navigate(indext)"
+                                >Detail</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    [EditorRequired]
+    [Parameter]
+    public List<Models.Product> Products { get; set; } = new();
+    [Parameter]
+    public bool DisplayBuyButton { get; set; }
+
+    //add method to add a product to the cart
+    //this method will be invoked when the user pressed buy button
+    @*private void Buy(int productId)
+    {
+        CartService.AddProductToCart(productId);
+    }*@
+
+    void Navigate(int Id)
+{
+    UriHelper.NavigateTo("/ProductDetail/" + Id);
+}
+    
+    private void ProductDetail(int productId)
+    {
+        ProductProviderService.GetProductDetail(productId);
+    }
+}

@@ -1,0 +1,26 @@
+﻿@page "/"
+
+@using Models;
+@using Services;
+@inject IProductProviderService ProductService;
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Home</PageTitle>
+
+<ProductList Products="ProductList" DisplayBuyButton="true" />
+
+
+@code {
+    private List<Product> ProductList = new List<Models.Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetProduct();
+    }
+
+    private async Task GetProduct()
+    {
+        ProductList = await ProductService.GetProducts();
+        @*JSRuntime.InvokeVoidAsync("console.log", ProductList);*@
+    }
+}

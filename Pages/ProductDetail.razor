@@ -1,0 +1,50 @@
+@page "/ProductDetail/{id}"
+
+@using Models;
+@using Services;
+@inject IProductProviderService ProductService;
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Product Detail</PageTitle>
+<style>
+/* Create three equal columns that floats next to each other */
+.columnDetail {
+  float: left;
+  width: 100%;
+  height: 100%:
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+</style>
+
+<body style="background-color:#4b5989;">
+    <div class="columnDetail" style="background-color:#4b5989;">
+        <div class="card text-dark bg-light mb-3" style="max-width: 100rem;">  
+        <div class="card-header" style="font-family: Slab-Serif;"><b>Product Detail</b></div><div class="card-body">    
+            <h4 class="card-title" style="font-family: Slab-Serif;"><b>@Product.Title</b></h4>    
+            <p class="card-text" style="font-family: Slab-Serif;">@Product.Body</p>  
+        </div>
+    </div>
+    </div>
+</body>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    private Product Product = new Models.Product();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetProductDetail(Int32.Parse(id));
+    }
+
+    private async Task GetProductDetail(int id)
+    {
+        Product = await ProductService.GetProductDetail(id);
+        @*JSRuntime.InvokeVoidAsync("console.log", ProductList);*@
+    }
+
+
+}
